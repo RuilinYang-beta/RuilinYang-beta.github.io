@@ -1,1 +1,202 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Craggy Silica</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 1 nav -->
+    <nav>
+      <ul>
+        <li><a href="#pragmaticSection">Pragmatic</a></li>
+        <li><a href="#academicSection">Academic</a></li>
+        <li><a href="#more">More</a></li>
+      </ul>
+    </nav>
+
+    <!-- 2 intro -->
+    <section id="intro">
+      <h1>Ruilin Yang</h1>
+      <p class="leading">BSc. Computer Science & Engineering</p>
+      <p class="text">
+        A growing software developer looking for frontend / full-stack entry
+        level internship
+      </p>
+      <a href="#pragmaticSection" class="inverse button">my works</a>
+    </section>
+
+    <!-- 3 pragmatic -->
+    <section id="pragmaticSection">
+      <h2>Pragmatic Projects</h2>
+      <div id="pragmaticDiv">
+        <div class="project">
+          <img src="assets/prag_distinguish.svg" alt="distinguisher" />
+          <div class="description">
+            <p>
+              A web app to help Lufthansa Technik determine if a process is
+              standard
+            </p>
+            <a
+              href="https://github.com/RuilinYang-beta/LufthansaTechnik_Process_Distinguisher_Web"
+              target="_blank"
+            >
+              source code
+            </a>
+            <a
+              href="https://presentation-distinguisher.herokuapp.com/"
+              target="_blank"
+            >
+              demo (with data dummified)
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/prag_gui.svg" alt="parity game" />
+          <div class="description">
+            <p>
+              A tool to help graph theory researchers manipulate the graph and
+              see how algorithms run visually
+            </p>
+            <a href="https://github.com/RuilinYang-beta/m11_parityGameGUI"
+              >source code
+            </a>
+            <a href="pdf/m11_slides.pdf" target="_blank">slides</a>
+            <a href="pdf/m11_poster.pdf" target="_blank">poster</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/prag_dashboard.svg" alt="dashboard" />
+          <div class="description">
+            <p>A dashboard web app for a logistic company</p>
+            <a
+              href="https://github.com/RuilinYang-beta/m4_dashboard"
+              target="_blank"
+              >source code
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/prag_spectrangle.svg" alt="process distinguisher" />
+          <div class="description">
+            <p>
+              A Java desktop app of a multiplayer board game that can be played
+              online/offline
+            </p>
+            <a
+              href="https://github.com/RuilinYang-beta/m2_spectrangle"
+              target="_blank"
+              >source code
+            </a>
+            <a href="pdf/m2_architecture.pdf" target="_blank">architecture</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 academic -->
+    <section id="academicSection">
+      <h2>Academic Projects</h2>
+      <div id="academicDiv">
+        <div class="project">
+          <img src="assets/acad_crypto.svg" alt="searchable encryption" />
+          <div class="description">
+            <p>
+              A prototype to study how visualization can help teach complex
+              cryptography schemes
+            </p>
+            <a
+              href="https://github.com/RuilinYang-beta/m12_SearchableEncryption"
+              target="_blank"
+              >source code
+            </a>
+            <a href="pdf/m12_slides.pdf" target="_blank">slides</a>
+            <a href="pdf/m12_thesis.pdf" target="_blank">my Bachelor thesis</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/acad_microFP.svg" alt="language interpreter" />
+          <div class="description">
+            <p>An interpreter of a pure functional language</p>
+            <a
+              href="https://github.com/RuilinYang-beta/_m8_microFP"
+              target="_blank"
+              >source code
+            </a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/acad_snake.svg" alt="AI snake" />
+          <div class="description">
+            <p>An AI snake in Prolog</p>
+            <a
+              href="https://github.com/RuilinYang-beta/_m8_snake"
+              target="_blank"
+              >source code
+            </a>
+            <a href="pdf/m8_snake.pdf" target="_blank">report</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="assets/acad_graph.png" alt="graph isomorphism" />
+          <div class="description">
+            <p>
+              Efficient algorithms to compute graph isomorphism and automorphism
+            </p>
+            <a
+              href="https://github.com/RuilinYang-beta/_m7_isomorphism"
+              target="_blank"
+              >source code
+            </a>
+            <a href="pdf/m7_report.pdf" target="_blank">report</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 more -->
+    <section id="more">
+      <h2>More</h2>
+      <div>
+        <a
+          href="pdf/2204_internship.pdf"
+          target="_blank"
+          class="button inverse"
+        >
+          <img src="assets/icon_download.svg" alt="" />
+          my CV
+        </a>
+        <a
+          href="https://github.com/RuilinYang-beta"
+          target="_blank"
+          class="button inverse"
+        >
+          <img src="assets/icon_github.svg" alt="" />
+          my Github
+        </a>
+        <a
+          href="mailto: ruilin.yang@protonmail.com"
+          target="_blank"
+          class="button inverse"
+        >
+          <img src="assets/icon_linkedin.png" alt="" />
+          LINKEDIN
+        </a>
+      </div>
+    </section>
+
+    <!-- 6 footer -->
+    <footer>
+      <p class="small">GOT A VACANCY?</p>
+      <p class="big">LET'S TALK</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* variables */
+:root {
+  --primary: #047aed;
+  --secondary: #01101e;
+  --dark: #002240;
+  --white: white;
+}
+
+/* reset */
+* {
+  border: dotted black 1px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* base styles */
+body {
+  background-color: var(--white);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.button {
+  display: inline-block;
+  color: var(--white);
+  background-color: var(--primary);
+  border: solid 3px var(--primary);
+  border-radius: 0.5em;
+  text-transform: uppercase;
+  padding: 0.6em;
+}
+
+.button.inverse {
+  color: var(--white);
+  background-color: var(--primary);
+  border: solid 3px var(--white);
+}
+
+.button:hover {
+  transform: scale(0.95);
+}
+
+a {
+  display: block;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+/* fonts */
+h1,
+h2,
+.leading {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+p,
+a,
+li {
+  font-size: 1.2em;
+}
+
+p.leading {
+  font-size: 1em;
+}
+
+/* nav */
+nav {
+  background-color: var(--secondary);
+  /* display: none; */
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  color: var(--white);
+}
+
+/* intro */
+#intro {
+  padding: 2em;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#intro .text {
+  margin: 1.5em auto;
+}
+
+/* pragmatic / academic */
+h2 {
+  text-align: center;
+}
+#pragmaticSection,
+#academicSection {
+  margin: 2em;
+}
+
+.project {
+  display: flex;
+  margin: 0.8em;
+  border: solid var(--primary) 2px;
+  border-radius: 1em;
+  align-items: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 0.5em;
+}
+
+.project:hover {
+  transform: translate(-2px, -4px);
+}
+
+.project img {
+  height: 100px;
+  width: auto;
+}
+
+.project .description {
+  margin-left: 1em;
+}
+
+/* more */
+#more {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 2em;
+}
+
+#more h2 {
+  margin-bottom: 0.5em;
+}
+
+#more div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#more img {
+  height: 20px;
+  width: auto;
+}
+
+#more a:hover {
+  background-color: var(--white);
+  color: var(--primary);
+  border-color: var(--white);
+}
+
+/* footer */
+footer {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: 1em 2em;
+}
+
+footer .small {
+  font-size: 0.8em;
+}
+
+footer .big {
+  font-size: 3em;
+}
+
+footer .big::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: var(--white);
+  transition: width 0.2s ease-in;
+}
+
+footer .big:hover::after {
+  width: 100%;
+}
