@@ -1,4 +1,3 @@
-# Here's the link
+# About
 
-[RuilinYang-beta.github.io](https://ruilinyang-beta.github.io)
-But right now nothing is there
+This is the repo of my GitHub Page site. You can reach my page here: [RuilinYang-beta.github.io](https://ruilinyang-beta.github.io)
