@@ -1,20 +1,22 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 3em;
+  scroll-padding-top: 4em;
 }
 
 /* variables */
 :root {
   --primary: #047aed;
   --secondary: #01101e;
-  --dark: #002240;
   --gray: #8091a0;
+  --lightGray: #e0e4e8;
   --white: white;
+  --midnight: #2c3e50;
+  --clouds: #ecf0f1;
 }
 
 /* reset */
 * {
-  /* border: dotted black 1px; */
+  /* border: dashed gray 0.2px; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -27,7 +29,6 @@ html {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
-  /* border: 1px solid; */
 }
 
 .grid {
@@ -97,17 +98,22 @@ p.leading,
 /* nav */
 nav {
   background-color: var(--secondary);
-  /* display: none; */
-  position: fixed;
+  position: sticky;
   width: 100%;
   z-index: 99;
   top: 0;
-  height: 3em;
+  height: 4em;
+}
+
+nav div {
+  height: 100%;
 }
 
 nav ul {
+  height: 100%;
   display: flex;
   justify-content: flex-end;
+  align-items: baseline;
 }
 
 nav li {
@@ -125,7 +131,6 @@ nav a:hover {
 
 /* intro */
 #intro {
-  margin-top: 3em;
   padding: 2em;
   background-color: var(--primary);
   color: var(--white);
@@ -208,6 +213,19 @@ nav a:hover {
 }
 
 /* pragmatic / academic */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: var(--lightGray);
+  color: var(--secondary);
+  cursor: pointer;
+  /* padding: 18px; */
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
 #pragmaticSection,
 #academicSection {
   margin: 2em;
@@ -256,6 +274,7 @@ h2 {
   color: var(--white);
   padding: 2em;
   border: solid 1px;
+  margin-top: 2rem;
 }
 
 #more h2 {
@@ -329,6 +348,7 @@ footer .big:hover::after {
 @media screen and (min-width: 680px) {
   /* projects */
   #pragmaticDiv,
+  #semiPragmaticDiv,
   #academicDiv {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

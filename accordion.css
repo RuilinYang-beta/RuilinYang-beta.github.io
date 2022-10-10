@@ -1,0 +1,55 @@
+/* Accordion styles */
+.tab {
+  width: 100%;
+  color: var(--secondary);
+  overflow: hidden;
+}
+
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tab-label {
+  display: flex;
+  align-items: baseline;
+  padding: 1em;
+  background: var(--lightGray);
+  cursor: pointer;
+  border: solid var(--gray) 1px;
+  border-radius: 1rem;
+}
+.tab-label:hover {
+  background: var(--gray);
+  color: var(--white);
+}
+.tab-label .arrow {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+
+.tab-label .projectHeader {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+
+input:checked + .tab-label .arrow {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
