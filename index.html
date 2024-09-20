@@ -29,12 +29,17 @@
       <section id="intro">
         <div class="container">
           <h1>Ruilin Yang</h1>
+          <br>
+          <p class="leading">Current Student of Master Program Cognitive Systems @ Uni Potsdam</p>
+          <br>
           <p class="leading">BSc. Computer Science & Engineering</p>
           &
           <p class="leading">BSc. Economics</p>
-          <p class="text">
+          <br>
+          <br>
+          <!-- <p class="text">
             Looking for opportunities in frontend development
-          </p>
+          </p> -->
           <div class="buttonRow">
             <a
               href="pdf/RuilinYang.pdf"
@@ -69,6 +74,26 @@
           <div class="container">
             <h2>Skills I have</h2>
             <div id="skillsHaveDiv">
+              <!-- 3.4 DATA -->
+              <div class="skillCard othersCard">
+                <div class="skillCardHeader">
+                  <p class="skillType">DATA</p>
+                </div>
+                <div class="skills">
+                  <div class="skillItem">
+                    <img src="assets/skills_data_cleaning.png" alt="">
+                    <p>Data Wrangling & Exploratory Analysis</p>
+                  </div>
+                  <div class="skillItem">
+                    <img src="assets/skills_data_visualization.png" alt="">
+                    <p>Data Visualization</p>
+                  </div>
+                  <div class="skillItem">
+                    <img src="assets/skills_nlp.png" alt="">
+                    <p>NLP</p>
+                  </div>
+                </div>
+              </div>
               <!-- 3.1 FRONTEND -->
               <div class="skillCard oddCard" >
                 <div class="skillCardHeader">
@@ -91,10 +116,6 @@
                     <img src="assets/skills_react.png" alt="">
                     <p>React</p>
                   </div>
-                  <div class="skillItem">
-                    <img src="assets/skills_materialui.png" alt="">
-                    <p>MaterialUI</p>
-                  </div>
                 </div>
               </div>
               <!-- 3.2 BACKEND -->
@@ -103,6 +124,10 @@
                   <p class="skillType">BACKEND</p>
                 </div>
                 <div class="skills">
+                  <div class="skillItem">
+                    <img src="assets/skills_python.png" alt="">
+                    <p>Core Python</p>
+                  </div>
                   <div class="skillItem">
                     <img src="assets/skills_java.png" alt="">
                     <p>Core Java</p>
@@ -129,11 +154,11 @@
                 <div class="skills">
                   <div class="skillItem">
                     <img src="assets/skills_git.png" alt="">
-                    <p>Git & GitHub</p>
+                    <p>Git</p>
                   </div>
                   <div class="skillItem">
                     <img src="assets/skills_agile.png" alt="">
-                    <p>Agile & SCRUM</p>
+                    <p>SCRUM</p>
                   </div>
                   <div class="skillItem">
                     <img src="assets/skills_req.png" alt="">
@@ -141,30 +166,7 @@
                   </div>
                 </div>
               </div>
-              <!-- 3.4 OTHERS -->
-              <div class="skillCard othersCard">
-                <div class="skillCardHeader">
-                  <p class="skillType">OTHERS</p>
-                </div>
-                <div class="skills">
-                  <div class="skillItem">
-                    <img src="assets/skills_data.png" alt="">
-                    <p>Data wrangling & analysis</p>
-                  </div>
-                  <div class="skillItem">
-                    <img src="assets/skills_electron.png" alt="">
-                    <p>Electron.js</Electron></p>
-                  </div>
-                  <div class="skillItem">
-                    <img src="assets/skills_haskell.png" alt="">
-                    <p>Haskell</p>
-                  </div>
-                  <div class="skillItem">
-                    <img src="assets/skills_heroku.png" alt="">
-                    <p>Heroku</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
       </section>
@@ -181,7 +183,7 @@
               <div class="skills">
                 <div class="skillItem">
                   <img src="assets/skills_de.png" alt="">
-                  <p>German (current: A2)</p>
+                  <p>German (current: B1.1)</p>
                 </div>
               </div>
             </div>
@@ -192,12 +194,12 @@
               <div class="skills">
 
                 <div class="skillItem">
-                  <img src="assets/skills_ts.png" alt="">
-                  <p>TypeScript</p>
+                  <img src="assets/skills_docker.png" alt="">
+                  <p>Docker</p>
                 </div>
                 <div class="skillItem">
-                  <img src="assets/skills_jest.png" alt="">
-                  <p>Jest</p>
+                  <img src="assets/skills_relational_database.png" alt="">
+                  <p>Relational Database</p>
                 </div>
 
               </div>
@@ -210,8 +212,224 @@
       <!-- 5 projects -->
       <section id="projects">
         <div class="container">
+
+          <!-- Academic Projects -->
           <div class="tab">
-            <input type="radio" id="rd0" name="rd" checked>
+            <input type="radio" id="rd2" name="rd" checked>
+            <label class="tab-label" for="rd2">
+              <span class="arrow">&#10095</span>
+              <div class="projectHeader">
+                <h2>Academic Projects</h2>
+              </div>
+            </label>
+            <div class="tab-content">
+              <div id="academicDiv">
+                <div class="project">
+                  <img src="assets/acad_attention.png" alt="searchable encryption" />
+                  <div class="description">
+                    <p>
+                      Explore the impact of individual attention head on LLM’s zero-shot transfer-learning abilities.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/s2_ptm_proposal.pdf" target="_blank">
+                        project proposal
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/acad_anlp.png" alt="searchable encryption" />
+                  <div class="description">
+                    <p>
+                      Explore QNLI tasks with different deep learning architectures and hyperparameters. Coded a transformer from scratch.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/s1_anlp.pdf" target="_blank">
+                        paper
+                      </a>
+                      <a
+                        href="https://github.com/RuilinYang-beta/anlp_qnli"
+                        target="_blank">
+                        source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/acad_crypto.svg" alt="searchable encryption" />
+                  <div class="description">
+                    <p>
+                      A prototype to visualize a complex cryptography scheme in context of cloud-storage; part of my Bachelor research project.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/m12_thesis.pdf" target="_blank">
+                        my Bachelor thesis
+                      </a>
+                      <a href="pdf/m12_slides.pdf" target="_blank">slides</a>
+                      <a
+                        href="https://github.com/RuilinYang-beta/m12_SearchableEncryption"
+                        target="_blank">
+                        source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/prag_gui.svg" alt="parity game" />
+                  <div class="description">
+                    <p>
+                      A tool to help graph theory researchers visualize how algorithm run and manipulate the game configuration.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/m11_poster.pdf" target="_blank">poster</a>
+                      <a href="pdf/m11_slides.pdf" target="_blank">slides</a>
+                      <a
+                        href="https://github.com/RuilinYang-beta/m11_parityGameGUI"
+                        target="_blank"
+                        >source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/acad_microFP.svg" alt="language interpreter" />
+                  <div class="description">
+                    <p>An interpreter of a pure functional language.</p>
+                    <div class="links">
+                      <br />
+                      <a
+                        href="https://github.com/RuilinYang-beta/_m8_microFP"
+                        target="_blank"
+                        >source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/acad_snake.svg" alt="AI snake" />
+                  <div class="description">
+                    <p>An AI snake in Prolog language.</p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/m8_snake.pdf" target="_blank">report</a>
+                      <a
+                        href="https://github.com/RuilinYang-beta/_m8_snake"
+                        target="_blank"
+                        >source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/acad_graph.png" alt="graph isomorphism" />
+                  <div class="description">
+                    <p>
+                      Efficient algorithms to compute graph isomorphism and
+                      automorphism.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/m7_report.pdf" target="_blank">report</a>
+                      <a
+                        href="https://github.com/RuilinYang-beta/_m7_isomorphism"
+                        target="_blank"
+                        >source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Semi-Pragmatic Projects -->
+          <div class="tab">
+            <input type="radio" id="rd1" name="rd">
+            <label class="tab-label" for="rd1">
+              <span class="arrow">&#10095</span>
+              <div class="projectHeader">
+                <h2>Semi-Pragmatic Projects</h2>
+              </div>
+            </label>
+            <div class="tab-content">
+              <div id="semiPragmaticDiv">
+                <div class="project">
+                  <img src="assets/prag_distinguish.svg" alt="distinguisher" />
+                  <div class="description">
+                    <p>
+                      A fullstack WebApp to help Lufthansa Technik determine how standardized a
+                      process is.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a
+                        href="https://presentation-distinguisher.herokuapp.com/"
+                        target="_blank"
+                      >
+                        demo (w. dummy data)
+                      </a>
+                      <a 
+                        href="https://github.com/RuilinYang-beta/LufthansaTechnik_Process_Distinguisher_Web/wiki/Maintainer's-guide#architecture"
+                        target="_blank">
+                        architecture
+                      </a>
+                      <a
+                        href="https://github.com/RuilinYang-beta/LufthansaTechnik_Process_Distinguisher_Web"
+                        target="_blank"
+                      >
+                        source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img src="assets/prag_dashboard.png" alt="dashboard" />
+                  <div class="description">
+                    <p>
+                      A dashboard WebApp for a logistic company that retrieves & visualize data according to various customizable filters.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a
+                        href="https://github.com/RuilinYang-beta/m4_dashboard"
+                        target="_blank"
+                        >source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project">
+                  <img
+                    src="assets/prag_spectrangle.svg"
+                    alt="process distinguisher"
+                  />
+                  <div class="description">
+                    <p>
+                      A Java desktop app of a multiplayer board game that can be
+                      played online with human players, or offline with an AI player.
+                    </p>
+                    <div class="links">
+                      <br />
+                      <a href="pdf/m2_architecture.pdf" target="_blank"
+                        >architecture</a
+                      >
+                      <a
+                        href="https://github.com/RuilinYang-beta/m2_spectrangle"
+                        target="_blank"
+                        >source code
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pragmatic Projects -->
+          <div class="tab">
+            <input type="radio" id="rd0" name="rd">
             <label class="tab-label" for="rd0">
               <span class="arrow">&#10095</span>
               <div class="projectHeader">
@@ -271,187 +489,6 @@
               </div>
             </div>
           </div>
-          <div class="tab">
-            <input type="radio" id="rd1" name="rd">
-            <label class="tab-label" for="rd1">
-              <span class="arrow">&#10095</span>
-              <div class="projectHeader">
-                <h2>Semi-Pragmatic Projects</h2>
-              </div>
-            </label>
-            <div class="tab-content">
-              <div id="semiPragmaticDiv">
-                <div class="project">
-                  <img src="assets/prag_distinguish.svg" alt="distinguisher" />
-                  <div class="description">
-                    <p>
-                      A fullstack WebApp to help Lufthansa Technik determine how standardized a
-                      process is.
-                    </p>
-                    <div class="links">
-                      <br />
-                      <a
-                        href="https://presentation-distinguisher.herokuapp.com/"
-                        target="_blank"
-                      >
-                        demo (w. dummy data)
-                      </a>
-                      <a 
-                        href="https://github.com/RuilinYang-beta/LufthansaTechnik_Process_Distinguisher_Web/wiki/Maintainer's-guide#architecture"
-                        target="_blank">
-                        architecture
-                      </a>
-                      <a
-                        href="https://github.com/RuilinYang-beta/LufthansaTechnik_Process_Distinguisher_Web"
-                        target="_blank"
-                      >
-                        source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project">
-                  <img src="assets/prag_gui.svg" alt="parity game" />
-                  <div class="description">
-                    <p>
-                      A tool to help graph theory researchers manipulate the graph and
-                      see how algorithms run visually.
-                    </p>
-                    <div class="links">
-                      <br />
-                      <a href="pdf/m11_poster.pdf" target="_blank">poster</a>
-                      <a href="pdf/m11_slides.pdf" target="_blank">slides</a>
-                      <a
-                        href="https://github.com/RuilinYang-beta/m11_parityGameGUI"
-                        target="_blank"
-                        >source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project">
-                  <img src="assets/prag_dashboard.png" alt="dashboard" />
-                  <div class="description">
-                    <p>
-                      A dashboard WebApp for a logistic company that retrieves & visualize data according to various customizable filters.
-                    </p>
-                    <div class="links">
-                      <br />
-                      <a
-                        href="https://github.com/RuilinYang-beta/m4_dashboard"
-                        target="_blank"
-                        >source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project">
-                  <img
-                    src="assets/prag_spectrangle.svg"
-                    alt="process distinguisher"
-                  />
-                  <div class="description">
-                    <p>
-                      A Java desktop app of a multiplayer board game that can be
-                      played online with human players, or offline with an AI player.
-                    </p>
-                    <div class="links">
-                      <br />
-                      <a href="pdf/m2_architecture.pdf" target="_blank"
-                        >architecture</a
-                      >
-                      <a
-                        href="https://github.com/RuilinYang-beta/m2_spectrangle"
-                        target="_blank"
-                        >source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tab">
-            <input type="radio" id="rd2" name="rd">
-            <label class="tab-label" for="rd2">
-              <span class="arrow">&#10095</span>
-              <div class="projectHeader">
-                <h2>Academic Projects</h2>
-              </div>
-            </label>
-            <div class="tab-content">
-              <div id="academicDiv">
-                <div class="project">
-                  <img src="assets/acad_crypto.svg" alt="searchable encryption" />
-                  <div class="description">
-                    <p>
-                      A prototype to visualize a complex cryptography scheme; part of my Bachelor thesis.
-                    </p>
-                    <div class="links">
-                      <br />
-                      <a href="pdf/m12_thesis.pdf" target="_blank">
-                        my Bachelor thesis
-                      </a>
-                      <a href="pdf/m12_slides.pdf" target="_blank">slides</a>
-                      <a
-                        href="https://github.com/RuilinYang-beta/m12_SearchableEncryption"
-                        target="_blank">
-                        source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project">
-                  <img src="assets/acad_microFP.svg" alt="language interpreter" />
-                  <div class="description">
-                    <p>An interpreter of a pure functional language.</p>
-                    <div class="links">
-                      <br />
-                      <a
-                        href="https://github.com/RuilinYang-beta/_m8_microFP"
-                        target="_blank"
-                        >source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project">
-                  <img src="assets/acad_snake.svg" alt="AI snake" />
-                  <div class="description">
-                    <p>An AI snake in Prolog language.</p>
-                    <div class="links">
-                      <br />
-                      <a href="pdf/m8_snake.pdf" target="_blank">report</a>
-                      <a
-                        href="https://github.com/RuilinYang-beta/_m8_snake"
-                        target="_blank"
-                        >source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project">
-                  <img src="assets/acad_graph.png" alt="graph isomorphism" />
-                  <div class="description">
-                    <p>
-                      Efficient algorithms to compute graph isomorphism and
-                      automorphism.
-                    </p>
-                    <div class="links">
-                      <br />
-                      <a href="pdf/m7_report.pdf" target="_blank">report</a>
-                      <a
-                        href="https://github.com/RuilinYang-beta/_m7_isomorphism"
-                        target="_blank"
-                        >source code
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
 
         </div>
       </section>

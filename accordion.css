@@ -50,6 +50,7 @@ input:checked + .tab-label .arrow {
   transform: rotate(90deg);
 }
 input:checked ~ .tab-content {
-  max-height: 100vh;
+  /* max-height: 100vh; */
+  max-height: 5000px;
   padding: 1em;
 }

@@ -29,6 +29,8 @@ html {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  height: auto;
+  overflow: visible;
 }
 
 .grid {
@@ -231,6 +233,14 @@ nav a:hover {
   margin: 2em;
 }
 
+#pragmaticDiv,
+#semiPragmaticDiv,
+#academicDiv {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  overflow: visible;
+}
+
 h2 {
   text-align: center;
 }
@@ -347,12 +357,6 @@ footer .big:hover::after {
 /* intermediary tablet */
 @media screen and (min-width: 680px) {
   /* projects */
-  #pragmaticDiv,
-  #semiPragmaticDiv,
-  #academicDiv {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-  }
 
   .project {
     flex-direction: column;
